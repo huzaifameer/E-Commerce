@@ -6,6 +6,7 @@ import {ShopCategory} from "../src/Pages/ShopCategory.jsx"
 import {Product} from "../src/Pages/Product.jsx"
 import {Cart} from "../src/Pages/Cart.jsx"
 import {LoginSignUp} from "../src/Pages/LoginSignUp.jsx"
+import { Footer } from './components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/login' element={<LoginSignUp/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
       
     </div>
